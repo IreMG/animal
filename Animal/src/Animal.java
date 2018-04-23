@@ -29,4 +29,14 @@ public class Animal {
 		return velocidad;
 		
 	}
+	public String adulto() {
+		String franja="";
+		if(edad>3) {
+			franja="adulto";
+		}
+		else {
+			franja="joven";
+		}
+		return franja;
+	}
 }
