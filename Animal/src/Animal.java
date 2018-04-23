@@ -24,4 +24,9 @@ public class Animal {
 		}
 		return this.velocidad;
 	}
+	public int desacelerar() {
+		velocidad+=-10;
+		return velocidad;
+		
+	}
 }
