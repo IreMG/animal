@@ -15,4 +15,9 @@ public class Animal {
 		}
 		return velocidad;
 	}
+	public int desacelerar() {
+		velocidad+=-10;
+		return velocidad;
+		
+	}
 }
